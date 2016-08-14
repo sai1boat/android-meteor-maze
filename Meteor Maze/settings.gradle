@@ -1,0 +1,4 @@
+include ':andEngine', ':swarmConnect'
+include ':andEnginePhysicsBox2DExtension'
+include ':andEngineDebugDrawExtension'
+include ':asteroidMaze'

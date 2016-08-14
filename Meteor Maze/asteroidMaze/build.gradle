@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyPassword 'makemeamillionaire'
+            storeFile file('/Users/anon/keystores/MeteorMaze.jks')
+            storePassword 'makemeamillionaire'
+            keyAlias 'meteor maze'
+        }
+    }
+    compileSdkVersion 16
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.joao024.mystery3d.mm"
+        minSdkVersion 14
+        targetSdkVersion 17
+        signingConfig signingConfigs.config
+    }
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs'
+        jni.srcDirs = [] //disable automatic ndk-build call
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':andEngineDebugDrawExtension')
+    compile project(':andEnginePhysicsBox2DExtension')
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.android.gms:play-services:+'
+    compile files('libs/commons-lang3-3.1.jar')
+    compile project(':swarmConnect')
+}

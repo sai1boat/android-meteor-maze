@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Meteor Maze.iml" filepath="$PROJECT_DIR$/Meteor Maze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andEngine/andEngine.iml" filepath="$PROJECT_DIR$/andEngine/andEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andEngineDebugDrawExtension/andEngineDebugDrawExtension.iml" filepath="$PROJECT_DIR$/andEngineDebugDrawExtension/andEngineDebugDrawExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andEnginePhysicsBox2DExtension/andEnginePhysicsBox2DExtension.iml" filepath="$PROJECT_DIR$/andEnginePhysicsBox2DExtension/andEnginePhysicsBox2DExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asteroidMaze/asteroidMaze.iml" filepath="$PROJECT_DIR$/asteroidMaze/asteroidMaze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swarmConnect/swarmConnect.iml" filepath="$PROJECT_DIR$/swarmConnect/swarmConnect.iml" />
+    </modules>
+  </component>
+</project>
+

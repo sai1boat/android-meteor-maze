@@ -1,0 +1,27 @@
+*.jar
+*.apk
+*.class
+local.properties
+*.dex
+bin/
+gen/
+out/
+.gradle/
+build/
+*.log
+.navigation/
+captures/
+*.iml
+.idea/workspace.xml
+.idea/libraries
+*.jks
+*.jpg
+*.gif
+*.png
+*.ogg
+
+#project specific folders
+andEngine/
+andEngineDebugDrawExtension/
+andEnginePhysicsBox2DExtension/
+swarmConnect/
