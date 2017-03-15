@@ -24,6 +24,7 @@ import org.andengine.opengl.font.StrokeFont;
 import org.andengine.ui.activity.BaseGameActivity;
 
 
+
 public class MyGameActivity extends BaseGameActivity{
 
 	final float mCameraWidth = 800;

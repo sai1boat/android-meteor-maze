@@ -55,7 +55,7 @@ import org.andengine.entity.sprite.Sprite;
 import org.andengine.entity.sprite.batch.SpriteBatch;
 import org.andengine.entity.text.Text;
 import org.andengine.entity.util.FPSLogger;
-import org.andengine.extension.debugdraw.DebugRenderer;
+//import org.andengine.extension.debugdraw.DebugRenderer;
 import org.andengine.extension.physics.box2d.PhysicsConnector;
 import org.andengine.extension.physics.box2d.PhysicsFactory;
 import org.andengine.extension.physics.box2d.util.Vector2Pool;
@@ -2064,11 +2064,12 @@ public class LevelFactory {
 		else {
 			mode = EditorMode.ROCKET;
 		}*/
-		
+
+		/*
 		if(Globals.instance().isDebugDrawingEnabled()){
 			DebugRenderer debug = new DebugRenderer(spt.mg.mPhysicsWorld, spt.mg.getVertexBufferObjectManager());
 			spt.gameScene.attachChild(debug);
-		}
+		}*/
 		
 		
 		

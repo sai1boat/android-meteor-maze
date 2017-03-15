@@ -438,7 +438,7 @@ public class LevelUtils {
                 }
             }
             catch(Exception e){
-                Log.e("Level.load.xml.missleOrigin", e.toString());
+                Log.e("Level.load.xml0", e.toString());
             }
 
             items = dom.getElementsByTagName("earthOrigin");
@@ -1199,13 +1199,13 @@ public class LevelUtils {
 
                     }
                     catch (UnsupportedEncodingException e) {
-                        Log.e("LevelUtils.refreshOortCloud",e.toString());
+                        Log.e("refreshOortCloud1",e.toString());
                     }
                     catch(ClientProtocolException f){
-                        Log.e("LevelUtils.refreshOortCloud",f.toString());
+                        Log.e("refreshOortCloud2",f.toString());
                     }
                     catch(IOException g){
-                        Log.e("LevelUtils.refreshOortCloud",g.toString());
+                        Log.e("refreshOortCloud3",g.toString());
                     }
 
                 }
@@ -1241,7 +1241,7 @@ public class LevelUtils {
 
                         }
                         catch (UnsupportedEncodingException e) {
-                            Log.e("LevelUtils.refreshOortCloud",e.toString());
+                            Log.e("refreshOortCloud",e.toString());
                         }
 
                     }
@@ -1278,13 +1278,13 @@ public class LevelUtils {
 
                         }
                         catch (UnsupportedEncodingException e) {
-                            Log.e("LevelUtils.refreshOortCloud",e.toString());
+                            Log.e("refreshOortCloud66",e.toString());
                         }
                         catch(ClientProtocolException f){
-                            Log.e("LevelUtils.refreshOortCloud",f.toString());
+                            Log.e("refreshOortCloud67",f.toString());
                         }
                         catch(IOException g){
-                            Log.e("LevelUtils.refreshOortCloud",g.toString());
+                            Log.e("refreshOortCloud68",g.toString());
                         }
 
                     }
@@ -1425,12 +1425,12 @@ public class LevelUtils {
 
 
             if(Globals.instance().isDebug()){
-                Log.w("LevelUtils.saveToOortCloud","uuid="+Level.uuid);
-                Log.w("LevelUtils.saveToOortCloud","filename="+Level.fileName);
-                Log.w("LevelUtils.saveToOortCloud","xml="+xml);
-                Log.w("LevelUtils.saveToOortCloud","isbuiltin="+(Level.isBuiltIn==true?1:0)+"");
-                Log.w("LevelUtils.saveToOortCloud","creatorId="+Level.creatorId);
-                Log.w("LevelUtils.saveToOortCloud","response code="+response.getStatusLine().getStatusCode());
+                Log.w("saveToOortCloud","uuid="+Level.uuid);
+                Log.w("saveToOortCloud","filename="+Level.fileName);
+                Log.w("saveToOortCloud","xml="+xml);
+                Log.w("saveToOortCloud","isbuiltin="+(Level.isBuiltIn==true?1:0)+"");
+                Log.w("saveToOortCloud","creatorId="+Level.creatorId);
+                Log.w("saveToOortCloud","response code="+response.getStatusLine().getStatusCode());
             }
 
 

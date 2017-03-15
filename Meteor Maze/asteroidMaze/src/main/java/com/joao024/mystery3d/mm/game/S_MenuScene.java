@@ -299,16 +299,10 @@ public  S_MenuScene(final MyGameActivity mg) {
 		
 		
 		
-		//this.registerUpdateHandler(new TimerHandler(3.0f,new ITimerCallback() {
-			
-			//@Override
-			//public void onTimePassed(TimerHandler pTimerHandler) {
-				spawnCoolX(this);
+
 				
-				spawnCoolAsteroid();
-				
-			//}
-		//}));
+		spawnCoolAsteroid();
+
 				
 		Text t = new Text(mg.mCameraWidth/2+200f, mg.mCameraHeight-64f, mg.mFontStrokeArial, mg.getString(R.string.app_name), mg.getVertexBufferObjectManager());
 		t.setPosition(t.getX()-t.getWidth()/2, t.getY());
@@ -350,7 +344,7 @@ public  S_MenuScene(final MyGameActivity mg) {
 	        		icons[i] = android.R.drawable.star_big_on;
 	        		break;
         	}
-        	Log.d("showLevelSelectionDialog", "rating for "+items[i]+" is "+rating);
+        	Log.d("level selection dialog", "rating for "+items[i]+" is "+rating);
         	
         }
         
